@@ -42,12 +42,13 @@ API testing is a type of software testing that involves testing application prog
 {
   "username": "testuser",
   "password": "testpassword"
-}
+}```
 
 **Response:**
-{
+
+```{
   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
-}
+}```
 
 **Test Cases:**
 
