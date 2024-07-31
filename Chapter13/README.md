@@ -38,19 +38,21 @@ API testing is a type of software testing that involves testing application prog
 **Endpoint:** `POST /api/v1/auth/login`
 
 **Request:**
-``json
+```
+json
 {
   "username": "testuser",
   "password": "testpassword"
-}``
+}
+```
 
 **Response:**
-
+```
 {
   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
 }
-
-Test Cases:
+```
+**Test Cases:**
 
 Valid Credentials:
 Request: Valid username and password.
@@ -63,20 +65,23 @@ Request: Missing username or password.
 Expected Result: Status code 400, error message "Missing required fields".
 
 ### Sample 2: Get User Profile API
-Endpoint: GET /api/v1/users/{user_id}
+Endpoint: `GET /api/v1/users/{user_id}`
 
 **Request Headers:**
+```
 {
   "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
 }
+```
 **Response:**
+```
 {
   "id": "12345",
   "username": "testuser",
   "email": "testuser@example.com",
   "name": "Test User"
 }
-
+```
 **Test Cases:**
 
 Valid Token:
@@ -90,25 +95,30 @@ Request: Invalid user ID and valid authorization token.
 Expected Result: Status code 404, error message "User not found".
 
 ### Sample 3: Update User Profile API
-Endpoint: PUT /api/v1/users/{user_id}
+Endpoint: `PUT /api/v1/users/{user_id}`
 
 **Request Headers:**
+```
 {
   "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
 }
+```
 **Request Body:**
+```
 {
   "email": "newemail@example.com",
   "name": "New Name"
 }
+```
 **Response:**
+```
 {
   "id": "12345",
   "username": "testuser",
   "email": "newemail@example.com",
   "name": "New Name"
 }
-
+```
 **Test Cases:**
 
 Valid Update:
