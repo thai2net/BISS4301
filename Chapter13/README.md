@@ -31,6 +31,18 @@ API testing is a type of software testing that involves testing application prog
 - **Security Testing:** Checks for vulnerabilities and ensures secure data transmission.
 - **Integration Testing:** Ensures the API works well with other APIs and components.
 
+## Postman for API Testing
+
+**Definition:**
+Postman is a popular API client that makes it easy for developers to create, share, test, and document APIs. It provides a user-friendly interface for sending requests, inspecting responses, and automating testing.
+
+**Features:**
+- **Request Building:** Allows users to easily construct requests with various methods (GET, POST, PUT, DELETE) and parameters.
+- **Response Inspection:** Provides detailed views of the response, including status codes, headers, and body content.
+- **Environment Management:** Supports the creation of different environments for testing APIs in various settings (e.g., development, staging, production).
+- **Automated Testing:** Enables the creation of automated tests using JavaScript to validate API responses.
+- **Collaboration:** Facilitates team collaboration by allowing users to share collections of requests and tests.
+  
 ## Sample API Testing Scenarios
 
 ### Sample 1: User Authentication API
