@@ -1,4 +1,4 @@
-# Google Chrome Testing Tools
+# Testing Tools: Selenium Library
 
 **Definition:**
 Google Chrome provides a variety of built-in tools for web developers and testers to inspect, debug, and test web applications. These tools, collectively known as Chrome DevTools, are essential for diagnosing issues, optimizing performance, and ensuring the quality of web applications.
