@@ -38,19 +38,19 @@ API testing is a type of software testing that involves testing application prog
 **Endpoint:** `POST /api/v1/auth/login`
 
 **Request:**
-```json
+json
 {
   "username": "testuser",
   "password": "testpassword"
-}```
+}
 
-**Response:**
+Response:
 
-```{
+{
   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
-}```
+}
 
-**Test Cases:**
+Test Cases:
 
 Valid Credentials:
 Request: Valid username and password.
