@@ -88,7 +88,7 @@ Cypress: Install Cypress via npm:
 npm install cypress --save-dev
 `
 
-**Running Tests:**
+Running Tests:
 To run Cypress tests, you can use the following command:
 `
 npx cypress open
