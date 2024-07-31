@@ -11,7 +11,7 @@
 #### - [10-Testing Plan](Chapter10/README.md)
 #### - [11-How to Report a Bug](Chapter11/README.md)
 #### - [12-Manual vs Automated Testing](Chapter12/README.md)
-#### - [13-API Testing](Chapter13/README.md)
+#### - [13-Testing Tools: Postman API Testing](Chapter13/README.md)
 #### - [14-Testing Tools: Selenium Library](Chapter14/README.md)
 #### - [15-Testing Tools: Cypress](Chapter15/README.md)
 #### - [16-Trend and Future](Chapter16/README.md)
